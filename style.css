@@ -1,0 +1,103 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#card-1 {
+    background-color: #e38826;
+    border-radius: 6px 6px 0px 0px;
+}
+#card-2 {
+    background-color: #006970;
+}
+#card-3 {
+    background-color: #004241;
+    border-radius: 0 0 6px 6px;
+}
+#card-1, #card-2, #card-3 {
+    color: #f2f2f2;
+    padding: 35px;
+    margin: 0 13px 0 13px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    font-size: 15px;
+}
+button {
+    padding: 12px 30px 12px 30px;
+    border-radius: 22px;
+    position: absolute;
+    bottom: 30px;
+    border: none;
+    margin-top: 40px;
+    font-family: "Lexend Deca";
+}
+
+p {
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    opacity: 0.65;
+    font-size: 0.8rem;
+    margin-bottom: 70px;
+    line-height: 20px;
+    color: #f2f2f2;
+}
+#btn-1 {
+    color: #e38826;
+}
+#btn-1:hover {
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #e38826;
+    cursor: pointer;
+}
+#btn-2 {
+    color: #006970;
+}
+#btn-2:hover {
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #006970;
+    cursor: pointer;
+}
+#btn-3 {
+    color: #004241;
+}
+#btn-3:hover {
+    border: 1px solid white;
+    color: #ffffff;
+    background-color: #004241;
+    cursor: pointer;
+}
+h1 {
+    font-family: "Big Shoulders Display";
+    color: #f2f2f2;
+}
+.svg {
+    width: 50px;
+}
+
+
+@media (min-width:610px){
+    #container {
+        flex-direction: row;
+        margin: auto;
+        max-width: 800px;
+        justify-self: center;
+        padding: 20px;
+    }
+    #card-1, #card-2, #card-3 {
+    margin: 0;
+    }
+    #card-1 {
+        border-radius: 6px 0 0 6px;
+    }
+    #card-3 {
+        border-radius: 0 6px 6px 0;
+    }
+    p {
+        padding-bottom: 40px;
+    
+    }
+}
