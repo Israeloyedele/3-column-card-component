@@ -1,7 +1,7 @@
 #container {
     display: flex;
     flex-direction: column;
-    height: auto;
+    margin: auto;
 }
 #card-1 {
     background-color: #e38826;
